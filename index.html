@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="icon" href="./img/icon.png">
+    <link href="https://fonts.cdnfonts.com/css/permanent-marker" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+</head>
+
+<body>
+    <div class="content">
+        <div class="menu-content">
+            <header> <a href="#conv">logo</a></header>
+            <nav>
+                <ul>
+                    <li><a href="#conv">conversor</li></a>
+                    <li><a href="#pratice">na prática</a>
+                    <li><a href="#contact">contato</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="conv">
+            <h1 class="title">conversor</h1>
+            <p class="base-text">Bem-Vindos ao nosso conversor, para usá-lo é bem simples. Escolha o valor que deseja converter e em seguida a base qual o seu valor representa, clique em converter e após isso nosso site vai lhe mostrar os valores desse mesmo número em todas as outras bases numéricas! Simples não?</p>
+            <div class="conv-box">
+                <form action="">
+                    <label for="number">número:</label>
+                    <input type="text" name="number" id="num" required>
+                    <label for="base">base:</label>
+                    <select>
+                        <option value="decimal">decimal</option>
+                        <option value="binario">binário</option>
+                        <option value="octal">octal</option>
+                        <option value="hexadecimal">hexadecimal</option>
+                    </select>
+                    <button>converter</button>
+                    <div class="result-box">
+                        <div class="result">
+                            <p>binário:</p>
+                        </div>
+                        <div class="result">
+                            <p>decimal:</p>
+                        </div>
+                        <div class="result">
+                            <p>octal:</p>
+                        </div>
+                        <div class="result">
+                            <p>hexadecimal:</p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="pratice">
+            <h1 class="title">na prática</h1>
+            <p>Ouça a explicação aqui: </p>
+            <audio src=""></audio>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, voluptates laborum quos illo ducimus odit placeat cum eos expedita iure error nihil minus inventore ad! Pariatur doloremque aperiam tempora suscipit?</p>
+            <div id="video">
+                <iframe width="420" height="315" src="https://www.youtube.com/embed/Vctnbk0RWVY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+       </div>
+       <div id="contact">
+        <div class="contact-content">
+            <h2>Preencha o formulário e deixe uma mensagem</h2>
+            <form action="" method="post">
+                <label for="name"><ion-icon name="person"></ion-icon></label>
+                <input type="text" required placeholder="seu nome">
+                <label for="sobrenome"><ion-icon name="person"></ion-icon></label>
+                <input type="text" required placeholder="seu sobrenome">
+                <label for="email"><ion-icon name="mail"></ion-icon></label>
+                <input type="email" required name="email" id="email" placeholder="seu e-mail">
+                <textarea name="leave-msg" id="msg" cols="30" rows="10" placeholder="deixe sua mensagem"></textarea>
+                <button type="submit">enviar</button>
+            </form>
+        </div>
+       </div>
+    </div>
+    <div class="go-up"><a href="#conv"><ion-icon name="caret-up-outline"></ion-icon></a></div>
+
+    <footer>
+        <pre>
+            Trabalho Acadêmico - Universidade Cruzeiro do Sul
+            Ariel Nunes de Azevedo - Rgm: 5833063818 | Elder Henrrique dos Santos - Rgm: 33128693
+            Danilo dos Santos Dias Rosa - Rgm: 32801084 | Gabriel Oliveira da Silva - Rgm: 33131341
+            David dos Santos Dias da Rosa - Rgm: 34373365 | Gustavo Gomes de Souza - Rgm: 33713871
+        </pre>
+    </footer>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
