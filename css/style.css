@@ -135,6 +135,17 @@ body{
     text-align: center;
     height: 100vh;
 }
+.audio {
+    display: flex;
+    height: 3.5%;
+    position: absolute;
+    right: 19%;
+    top: 13%;
+}
+.bin-text {
+    letter-spacing: 1px;
+    word-spacing: .2px
+}
 .go-up {
     width: 30px;
     background-color: white;
@@ -157,7 +168,7 @@ body{
 
 #pratice p {
     line-height: 180%;
-    margin: 1% auto;
+    margin: 2.5% auto;
     width: 50%;
     text-align: justify;
 }
