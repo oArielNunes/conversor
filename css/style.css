@@ -11,23 +11,16 @@ body{
 
 }
 .menu-content {
-    height: 60px;
+    height: 80px;
     position: relative;
     width: 100%;
     text-align: center;
     background: linear-gradient(90deg, rgba(7,60,51,1) 0%, rgba(14,19,18,1) 20%, rgba(0,0,0,1) 50%, rgba(14,19,18,1) 80%, rgba(7,60,51,1) 100%);}
-.menu-content header a{
-    width: 25%;
-    margin-left: 2%;
-    text-decoration: none;
-    color: #BECCF3;
-    font-size: 1.8vw;
-    display: flex;
-    transition: all .5s;
-    padding: 1.5%;
-}
-.menu-content header a:hover{
-    text-shadow: 1px 1px 10px whitesmoke;
+.logo-img{
+    left: 5%;
+    top: 9%;
+    position: absolute;
+    width: 5.2%;
 }
 .menu-content ul{
     padding: .8%;
