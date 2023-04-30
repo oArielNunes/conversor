@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div class="content">
+    <section class="content">
         <div class="menu-content">
             <header> <a href="#conv">logo</a></header>
             <nav>
@@ -23,7 +23,7 @@
                 </ul>
             </nav>
         </div>
-        <div id="conv">
+        <section id="conv">
             <h1 class="title">conversor</h1>
             <p class="base-text">Bem-Vindos ao nosso conversor, para usá-lo é bem simples. Escolha o valor que deseja converter e em seguida a base qual o seu valor representa, clique em converter e após isso nosso site vai lhe mostrar os valores desse mesmo número em todas as outras bases numéricas! Simples não?</p>
             <div class="conv-box">
@@ -54,17 +54,22 @@
                     </div>
                 </form>
             </div>
-        </div>
-        <div id="pratice">
+        </section>
+        <section id="pratice">
             <h1 class="title">na prática</h1>
             <p>Ouça a explicação aqui: </p>
-            <audio src=""></audio>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, voluptates laborum quos illo ducimus odit placeat cum eos expedita iure error nihil minus inventore ad! Pariatur doloremque aperiam tempora suscipit?</p>
+
+            <audio class="audio" controls="controls">
+                <source src="./audio/Soar-binario.mp3" type="audio/mp3">
+            </audio>
+            <div class="bin-text">
+                <p>O Código Binário, ou o sistema de numeração binário, é uma forma de representação por meio de números que só aceita dois valores. O valor alto representado por 1 e o valor baixo representado pelo 0. Quando juntamos mais 1s que 0s, um ao lado do outro, conseguimos criar uma espécie de alfabeto, "comunicando" para o computador que tarefas ele deve realizar. Somente assim é que podemos falar na "linguagem" do computador.</p>
+            </div>
             <div id="video">
                 <iframe width="420" height="315" src="https://www.youtube.com/embed/Vctnbk0RWVY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
-       </div>
-       <div id="contact">
+        </section>
+       <section id="contact">
         <div class="contact-content">
             <h2>Preencha o formulário e deixe uma mensagem</h2>
             <form action="" method="post">
@@ -78,8 +83,8 @@
                 <button type="submit">enviar</button>
             </form>
         </div>
-       </div>
-    </div>
+       </section>
+    </section>
     <div class="go-up"><a href="#conv"><ion-icon name="caret-up-outline"></ion-icon></a></div>
 
     <footer>
